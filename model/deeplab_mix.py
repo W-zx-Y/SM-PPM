@@ -228,7 +228,6 @@ class MixStyle(nn.Module):
         self.eps = eps
 
     def forward(self, x, style):
-
         B = x.size(0)
         C = x.size(1)
 
