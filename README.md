@@ -1,7 +1,9 @@
 # SM-PPM
 This is a Pytorch implementation of our paper "Style Mixing and Patchwise Prototypical Matching for One-Shot Unsupervised Domain Adaptive Semantic Segmentation".
 
-AAAI2022[[arxiv]]()
+AAAI2022 [[arxiv]]()
+
+The paper does not available right now. We are working on the camera ready version.
 
 ## Requirements
 * python3.7
