@@ -3,12 +3,11 @@ import argparse
 MODEL = 'DeepLab'
 BATCH_SIZE = 1
 NUM_WORKERS = 1
-DATA_DIRECTORY = '/Zelda/data/GTA5'
+DATA_DIRECTORY = './data/GTA5'
 DATA_LIST_PATH = './dataset/gta5_list/train.txt'
 IGNORE_LABEL = 255
-# INPUT_SIZE = '1280,720'
-INPUT_SIZE = '640,320'
-DATA_DIRECTORY_TARGET = '/Zelda/data/cityscape'
+INPUT_SIZE = '1280,720'
+DATA_DIRECTORY_TARGET = './data/cityscape'
 DATA_LIST_PATH_TARGET = './dataset/cityscapes_list/trainOne1.txt'
 INPUT_SIZE_TARGET = '2048,1024'
 LEARNING_RATE = 2.5e-5

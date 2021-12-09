@@ -1,6 +1,6 @@
 import argparse
 
-DATA_DIRECTORY = '/Zelda/data/cityscape'
+DATA_DIRECTORY = './data/cityscape'
 DATA_LIST_PATH = './dataset/cityscapes_list/val.txt'
 SAVE_PATH = './result/temp'
 IGNORE_LABEL = 255

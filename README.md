@@ -3,7 +3,7 @@ This is a Pytorch implementation of our paper "Style Mixing and Patchwise Protot
 
 AAAI2022 [[arxiv]]()
 
-The paper does not available right now. We are working on the camera ready version.
+The paper does not available currently. We are working on the camera ready version.
 
 ## Requirements
 * python3.7
@@ -24,14 +24,27 @@ The paper does not available right now. We are working on the camera ready versi
 
 Download these pretrained models and put them into the pretrained_model folder.
 
-## Training Instruction for GTA5->Cityscapes
-Modify the data path of the train.py and evaluate_cityscapes.py. 
 
-```python
+## Training and Evaluation Instruction for GTA5->Cityscapes
+Modify the all data paths in the train_config.py and test_config.py. 
+
+```
 bash run.sh
 ```
 
-### Acknowledgment
+## Acknowledgment
 Part of our code is from [MixStyle](https://github.com/KaiyangZhou/mixstyle-release) and [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet).
 We gratefully thank the authors for their great work.
 Also thank the authors of [ASM](https://github.com/RoyalVane/ASM) for introducing this one-shot UDA setting.
+
+## Citation
+If you think this paper is useful for your research, please cite our paper:
+
+```
+@inproceedings{wu2021style,
+  title={Style Mixing and Patchwise Prototypical Matching for One-Shot Unsupervised Domain Adaptive Semantic Segmentation},
+  author={Wu, Xinyi and Wu, Zhenyao and Lu, Yuhang and Ju, Lili and Wang, Song},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2022}
+}
+```
