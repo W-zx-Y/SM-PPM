@@ -3,8 +3,6 @@ This is a Pytorch implementation of our paper "Style Mixing and Patchwise Protot
 
 AAAI2022 [[arxiv]](https://arxiv.org/abs/2112.04665)
 
-The paper does not available currently. We are working on the camera ready version.
-
 ## Requirements
 * python3.7
 * pytorch>=1.5.0
